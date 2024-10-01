@@ -1,0 +1,2 @@
+evaluation: psnr_avg=31.209213256835938, lpips_vgg_avg=0.05386842727661133, lpips_alex_avg=0.019670283421874046, ssim_avg=0.963330007493496
+Models saved to ./ckpts/218_2350/seg/materials

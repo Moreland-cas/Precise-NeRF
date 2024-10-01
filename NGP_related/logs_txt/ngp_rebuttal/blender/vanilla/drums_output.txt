@@ -1,0 +1,20 @@
+step 4999: evaluation: psnr_avg=24.649870777130126, lpips_vgg_avg=0.10725281402468681, lpips_alex_avg=0.07434268910437822, ssim_avg=0.922206449508667
+Models saved to ./ckpts/ngp_rebuttal/vanilla/drums
+step 9998: evaluation: psnr_avg=24.670451040267945, lpips_vgg_avg=0.10693296182900668, lpips_alex_avg=0.07198158485814929, ssim_avg=0.9227753826975822
+Models saved to ./ckpts/ngp_rebuttal/vanilla/drums
+step 14997: evaluation: psnr_avg=24.708494729995728, lpips_vgg_avg=0.10447255257517099, lpips_alex_avg=0.06957327106967569, ssim_avg=0.9239968603849411
+Models saved to ./ckpts/ngp_rebuttal/vanilla/drums
+step 19996: evaluation: psnr_avg=24.716597299575806, lpips_vgg_avg=0.10031464651226997, lpips_alex_avg=0.06864025136455894, ssim_avg=0.9239681738615036
+Models saved to ./ckpts/ngp_rebuttal/vanilla/drums
+step 24995: evaluation: psnr_avg=24.680861158370973, lpips_vgg_avg=0.1032739906013012, lpips_alex_avg=0.07048402555286884, ssim_avg=0.9233392554521561
+Models saved to ./ckpts/ngp_rebuttal/vanilla/drums
+step 29994: evaluation: psnr_avg=24.954623155593872, lpips_vgg_avg=0.08946172136813402, lpips_alex_avg=0.06237485971301794, ssim_avg=0.9287313461303711
+Models saved to ./ckpts/ngp_rebuttal/vanilla/drums
+step 34993: evaluation: psnr_avg=24.904271535873413, lpips_vgg_avg=0.09201532270759344, lpips_alex_avg=0.06289836874231697, ssim_avg=0.9280848985910416
+Models saved to ./ckpts/ngp_rebuttal/vanilla/drums
+step 39992: evaluation: psnr_avg=24.991730518341065, lpips_vgg_avg=0.08709789602085947, lpips_alex_avg=0.06069383865222335, ssim_avg=0.9295434272289276
+Models saved to ./ckpts/ngp_rebuttal/vanilla/drums
+step 44991: evaluation: psnr_avg=24.91491271018982, lpips_vgg_avg=0.08936153307557106, lpips_alex_avg=0.062213489413261415, ssim_avg=0.9284246513247489
+Models saved to ./ckpts/ngp_rebuttal/vanilla/drums
+step 49990: evaluation: psnr_avg=24.88885277748108, lpips_vgg_avg=0.08979743283241987, lpips_alex_avg=0.062208192348480226, ssim_avg=0.9283726328611374
+Models saved to ./ckpts/ngp_rebuttal/vanilla/drums

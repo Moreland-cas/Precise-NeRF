@@ -1,0 +1,20 @@
+step 4999: evaluation: psnr_avg=35.702025470733645, lpips_vgg_avg=0.05403452528640628, lpips_alex_avg=0.026066263993270694, ssim_avg=0.9752883434295654
+Models saved to ./ckpts/segngp_rebuttal/seg/hotdog
+step 9998: evaluation: psnr_avg=35.927667465209964, lpips_vgg_avg=0.04902993678115308, lpips_alex_avg=0.024100256538949906, ssim_avg=0.9767764940857887
+Models saved to ./ckpts/segngp_rebuttal/seg/hotdog
+step 14997: evaluation: psnr_avg=36.17793207168579, lpips_vgg_avg=0.04685370238497853, lpips_alex_avg=0.02292680547107011, ssim_avg=0.9776700052618981
+Models saved to ./ckpts/segngp_rebuttal/seg/hotdog
+step 19996: evaluation: psnr_avg=36.23867506980896, lpips_vgg_avg=0.046036733044311405, lpips_alex_avg=0.021720390617847442, ssim_avg=0.9778998503088951
+Models saved to ./ckpts/segngp_rebuttal/seg/hotdog
+step 24995: evaluation: psnr_avg=36.25252477645874, lpips_vgg_avg=0.045042398078367116, lpips_alex_avg=0.02091051321476698, ssim_avg=0.9780461493134499
+Models saved to ./ckpts/segngp_rebuttal/seg/hotdog
+step 29994: evaluation: psnr_avg=37.38216436386109, lpips_vgg_avg=0.03456069408915937, lpips_alex_avg=0.015453714418690652, ssim_avg=0.9819737845659255
+Models saved to ./ckpts/segngp_rebuttal/seg/hotdog
+step 34993: evaluation: psnr_avg=37.41111788749695, lpips_vgg_avg=0.03495772760361433, lpips_alex_avg=0.015240159048698843, ssim_avg=0.9821129402518273
+Models saved to ./ckpts/segngp_rebuttal/seg/hotdog
+step 39992: evaluation: psnr_avg=37.972498979568485, lpips_vgg_avg=0.030548059530556202, lpips_alex_avg=0.013179903782438487, ssim_avg=0.9838758540153504
+Models saved to ./ckpts/segngp_rebuttal/seg/hotdog
+step 44991: evaluation: psnr_avg=37.9947500705719, lpips_vgg_avg=0.030074982158839702, lpips_alex_avg=0.012670012940652668, ssim_avg=0.9839942479133605
+Models saved to ./ckpts/segngp_rebuttal/seg/hotdog
+step 49990: evaluation: psnr_avg=38.15757618904114, lpips_vgg_avg=0.02902243332006037, lpips_alex_avg=0.012185839279554784, ssim_avg=0.9845981925725937
+Models saved to ./ckpts/segngp_rebuttal/seg/hotdog

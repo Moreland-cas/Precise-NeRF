@@ -1,0 +1,20 @@
+step 4999: evaluation: psnr_avg=27.895196990966795, lpips_vgg_avg=0.20436661265790462, lpips_alex_avg=0.15230091221630573, ssim_avg=0.8578865066170692
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ship
+step 9998: evaluation: psnr_avg=28.81487356185913, lpips_vgg_avg=0.18354266069829464, lpips_alex_avg=0.13351607110351324, ssim_avg=0.8706082531809807
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ship
+step 14997: evaluation: psnr_avg=29.181063966751097, lpips_vgg_avg=0.17648390725255012, lpips_alex_avg=0.12499940868467092, ssim_avg=0.8759692046046257
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ship
+step 19996: evaluation: psnr_avg=29.240275230407715, lpips_vgg_avg=0.1719113764539361, lpips_alex_avg=0.12265752548351884, ssim_avg=0.8768967714905739
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ship
+step 24995: evaluation: psnr_avg=29.481011047363282, lpips_vgg_avg=0.1722768475115299, lpips_alex_avg=0.11909414721652865, ssim_avg=0.8793169319629669
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ship
+step 29994: evaluation: psnr_avg=30.445490732192994, lpips_vgg_avg=0.14649818032979967, lpips_alex_avg=0.09738084340468049, ssim_avg=0.8910866174101829
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ship
+step 34993: evaluation: psnr_avg=30.510474548339843, lpips_vgg_avg=0.1461155029013753, lpips_alex_avg=0.09529869558289647, ssim_avg=0.8920629099011421
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ship
+step 39992: evaluation: psnr_avg=30.98978750228882, lpips_vgg_avg=0.13760452672839166, lpips_alex_avg=0.08829811757430434, ssim_avg=0.8964205351471901
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ship
+step 44991: evaluation: psnr_avg=31.083843116760253, lpips_vgg_avg=0.1350010507926345, lpips_alex_avg=0.08486414168961347, ssim_avg=0.8970851054787636
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ship
+step 49990: evaluation: psnr_avg=31.25688691139221, lpips_vgg_avg=0.13239757418632508, lpips_alex_avg=0.08181061903014779, ssim_avg=0.8985085147619247
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ship

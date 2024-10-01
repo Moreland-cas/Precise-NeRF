@@ -1,0 +1,9 @@
+[nerfstudio.dataparser_configs]
+adop-data = pynerf.pynerf_data_config:adop_dataparser
+mipnerf360-data = pynerf.pynerf_data_config:mipnerf360_dataparser
+multicam-data = pynerf.pynerf_data_config:multicam_dataparser
+
+[nerfstudio.method_configs]
+pynerf = pynerf.pynerf_method_config:pynerf_method
+pynerf_occupancy_grid = pynerf.pynerf_method_config:pynerf_occupancy_method
+pynerf_synthetic = pynerf.pynerf_method_config:pynerf_synthetic_method

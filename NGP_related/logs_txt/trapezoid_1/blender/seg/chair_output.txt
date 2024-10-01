@@ -1,0 +1,2 @@
+evaluation: psnr_avg=36.160446872711184, lpips_vgg_avg=0.018159133815206587, lpips_alex_avg=0.007567004158627242, ssim_avg=0.9868541499972343
+Models saved to ./ckpts/trapezoid_1/seg/chair

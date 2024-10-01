@@ -1,0 +1,20 @@
+step 4999: evaluation: psnr_avg=35.2341668510437, lpips_vgg_avg=0.05803453031927347, lpips_alex_avg=0.029224841147661208, ssim_avg=0.9723905083537102
+Models saved to ./ckpts/ngp_rebuttal/vanilla/hotdog
+step 9998: evaluation: psnr_avg=35.628114976882934, lpips_vgg_avg=0.052103216629475355, lpips_alex_avg=0.02638994708657265, ssim_avg=0.9748496907949448
+Models saved to ./ckpts/ngp_rebuttal/vanilla/hotdog
+step 14997: evaluation: psnr_avg=35.804076528549196, lpips_vgg_avg=0.05004680939018726, lpips_alex_avg=0.025270613324828446, ssim_avg=0.975476847589016
+Models saved to ./ckpts/ngp_rebuttal/vanilla/hotdog
+step 19996: evaluation: psnr_avg=35.851466703414914, lpips_vgg_avg=0.04849169177934527, lpips_alex_avg=0.023831226537004112, ssim_avg=0.9759482562541961
+Models saved to ./ckpts/ngp_rebuttal/vanilla/hotdog
+step 24995: evaluation: psnr_avg=35.92353162765503, lpips_vgg_avg=0.04821111302822828, lpips_alex_avg=0.023559951218776406, ssim_avg=0.9762440660595894
+Models saved to ./ckpts/ngp_rebuttal/vanilla/hotdog
+step 29994: evaluation: psnr_avg=36.93738097190857, lpips_vgg_avg=0.0379838602989912, lpips_alex_avg=0.017299418253824115, ssim_avg=0.980125387609005
+Models saved to ./ckpts/ngp_rebuttal/vanilla/hotdog
+step 34993: evaluation: psnr_avg=37.02266529083252, lpips_vgg_avg=0.0377320902235806, lpips_alex_avg=0.017042160257697104, ssim_avg=0.9802644035220146
+Models saved to ./ckpts/ngp_rebuttal/vanilla/hotdog
+step 39992: evaluation: psnr_avg=37.48530678749084, lpips_vgg_avg=0.033467312045395374, lpips_alex_avg=0.01474073296878487, ssim_avg=0.981949078142643
+Models saved to ./ckpts/ngp_rebuttal/vanilla/hotdog
+step 44991: evaluation: psnr_avg=37.4732711315155, lpips_vgg_avg=0.03360492595471442, lpips_alex_avg=0.01452442463254556, ssim_avg=0.9819905829429626
+Models saved to ./ckpts/ngp_rebuttal/vanilla/hotdog
+step 49990: evaluation: psnr_avg=37.67991437911987, lpips_vgg_avg=0.032371215233579276, lpips_alex_avg=0.013718799587804824, ssim_avg=0.9825954633951187
+Models saved to ./ckpts/ngp_rebuttal/vanilla/hotdog

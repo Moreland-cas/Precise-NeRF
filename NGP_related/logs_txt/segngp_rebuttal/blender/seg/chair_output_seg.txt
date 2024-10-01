@@ -1,0 +1,20 @@
+step 4999: evaluation: psnr_avg=34.40648319244385, lpips_vgg_avg=0.03377654679119587, lpips_alex_avg=0.015190903043840081, ssim_avg=0.9797405532002449
+Models saved to ./ckpts/segngp_rebuttal/seg/chair
+step 9998: evaluation: psnr_avg=34.70409915924072, lpips_vgg_avg=0.030011618817225097, lpips_alex_avg=0.013135145376436412, ssim_avg=0.9810305833816528
+Models saved to ./ckpts/segngp_rebuttal/seg/chair
+step 14997: evaluation: psnr_avg=34.86357498168945, lpips_vgg_avg=0.02863470572978258, lpips_alex_avg=0.01266272481996566, ssim_avg=0.9818216133117675
+Models saved to ./ckpts/segngp_rebuttal/seg/chair
+step 19996: evaluation: psnr_avg=34.954195461273194, lpips_vgg_avg=0.027374054985120893, lpips_alex_avg=0.012227340382523835, ssim_avg=0.9822253727912903
+Models saved to ./ckpts/segngp_rebuttal/seg/chair
+step 24995: evaluation: psnr_avg=35.01397733688354, lpips_vgg_avg=0.027200932856649162, lpips_alex_avg=0.012087945335078985, ssim_avg=0.9824850562214852
+Models saved to ./ckpts/segngp_rebuttal/seg/chair
+step 29994: evaluation: psnr_avg=35.91184476852417, lpips_vgg_avg=0.020680283261463046, lpips_alex_avg=0.008840695441467688, ssim_avg=0.9856560811400413
+Models saved to ./ckpts/segngp_rebuttal/seg/chair
+step 34993: evaluation: psnr_avg=35.87776460647583, lpips_vgg_avg=0.021356291426345705, lpips_alex_avg=0.00886128565762192, ssim_avg=0.9857057827711105
+Models saved to ./ckpts/segngp_rebuttal/seg/chair
+step 39992: evaluation: psnr_avg=36.32162857055664, lpips_vgg_avg=0.01818109628278762, lpips_alex_avg=0.007480510021559894, ssim_avg=0.9870801445841789
+Models saved to ./ckpts/segngp_rebuttal/seg/chair
+step 44991: evaluation: psnr_avg=36.273059616088865, lpips_vgg_avg=0.018274568947963418, lpips_alex_avg=0.007455288913333789, ssim_avg=0.9870151770114899
+Models saved to ./ckpts/segngp_rebuttal/seg/chair
+step 49990: evaluation: psnr_avg=36.36164501190186, lpips_vgg_avg=0.01807069392874837, lpips_alex_avg=0.007169861149741337, ssim_avg=0.9874150106310844
+Models saved to ./ckpts/segngp_rebuttal/seg/chair

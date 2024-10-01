@@ -1,0 +1,2 @@
+evaluation: psnr_avg=27.274342861175537, lpips_vgg_avg=0.07471137570217251, lpips_alex_avg=0.06255456602200865, ssim_avg=0.9461772218346596
+Models saved to ./ckpts/vanilla_64/vanilla/mic

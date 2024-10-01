@@ -1,0 +1,20 @@
+step 4999: evaluation: psnr_avg=32.69714956283569, lpips_vgg_avg=0.04726942289620638, lpips_alex_avg=0.018785066129639746, ssim_avg=0.9656772348284721
+Models saved to ./ckpts/ngp_rebuttal/vanilla/lego
+step 9998: evaluation: psnr_avg=33.509027967453, lpips_vgg_avg=0.040551754105836155, lpips_alex_avg=0.015644188816659153, ssim_avg=0.9696009087562562
+Models saved to ./ckpts/ngp_rebuttal/vanilla/lego
+step 14997: evaluation: psnr_avg=33.633929071426394, lpips_vgg_avg=0.03934463336132467, lpips_alex_avg=0.015026046733837575, ssim_avg=0.9706242036819458
+Models saved to ./ckpts/ngp_rebuttal/vanilla/lego
+step 19996: evaluation: psnr_avg=33.826019811630246, lpips_vgg_avg=0.03741827644407749, lpips_alex_avg=0.014384696055203676, ssim_avg=0.9712398147583008
+Models saved to ./ckpts/ngp_rebuttal/vanilla/lego
+step 24995: evaluation: psnr_avg=33.74835720062256, lpips_vgg_avg=0.03807060919702053, lpips_alex_avg=0.014765638820827008, ssim_avg=0.971349995136261
+Models saved to ./ckpts/ngp_rebuttal/vanilla/lego
+step 29994: evaluation: psnr_avg=35.08618375778198, lpips_vgg_avg=0.026979643292725085, lpips_alex_avg=0.010254858187399804, ssim_avg=0.9773633527755737
+Models saved to ./ckpts/ngp_rebuttal/vanilla/lego
+step 34993: evaluation: psnr_avg=35.189067888259885, lpips_vgg_avg=0.027177547719329596, lpips_alex_avg=0.0101463487977162, ssim_avg=0.9775795462727547
+Models saved to ./ckpts/ngp_rebuttal/vanilla/lego
+step 39992: evaluation: psnr_avg=35.78623419761658, lpips_vgg_avg=0.023064327877946197, lpips_alex_avg=0.008610890613636003, ssim_avg=0.9798913568258285
+Models saved to ./ckpts/ngp_rebuttal/vanilla/lego
+step 44991: evaluation: psnr_avg=35.78791283607483, lpips_vgg_avg=0.023111910251900555, lpips_alex_avg=0.008473141830181703, ssim_avg=0.9799845427274704
+Models saved to ./ckpts/ngp_rebuttal/vanilla/lego
+step 49990: evaluation: psnr_avg=36.0347926902771, lpips_vgg_avg=0.021991728534922005, lpips_alex_avg=0.00796094955643639, ssim_avg=0.9808318269252777
+Models saved to ./ckpts/ngp_rebuttal/vanilla/lego

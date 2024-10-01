@@ -1,0 +1,2 @@
+evaluation: psnr_avg=29.014225854873658, lpips_vgg_avg=0.07933548960834741, lpips_alex_avg=0.03830937226302922, ssim_avg=0.9441135388612747
+Models saved to ./ckpts/vanilla_512/vanilla/materials

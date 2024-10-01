@@ -1,0 +1,2 @@
+evaluation: psnr_avg=31.05562219619751, lpips_vgg_avg=0.13352090064436198, lpips_alex_avg=0.08127004355192184, ssim_avg=0.8985020464658737
+Models saved to ./ckpts/218_2347/seg/ship

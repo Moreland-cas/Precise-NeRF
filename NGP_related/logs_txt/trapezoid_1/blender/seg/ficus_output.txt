@@ -1,0 +1,2 @@
+evaluation: psnr_avg=34.176352949142455, lpips_vgg_avg=0.02541214636527002, lpips_alex_avg=0.012644821000285446, ssim_avg=0.9829006546735763
+Models saved to ./ckpts/trapezoid_1/seg/ficus

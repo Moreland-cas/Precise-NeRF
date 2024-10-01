@@ -1,0 +1,2 @@
+evaluation: psnr_avg=31.265779600143432, lpips_vgg_avg=0.1307462975382805, lpips_alex_avg=0.07985576904378831, ssim_avg=0.8991618752479553
+Models saved to ./ckpts/trapezoid_3/seg/ship

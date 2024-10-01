@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: segnerf
+Version: 0.1.0
+Summary: Implementing nerf in segments.
+Requires-Dist: nerfstudio>=0.3.0

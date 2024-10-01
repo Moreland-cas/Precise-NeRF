@@ -1,0 +1,2 @@
+evaluation: psnr_avg=29.85744457244873, lpips_vgg_avg=0.06560877149924636, lpips_alex_avg=0.03110846729017794, ssim_avg=0.9491780266165734
+Models saved to ./ckpts/trapezoid_2/seg/materials

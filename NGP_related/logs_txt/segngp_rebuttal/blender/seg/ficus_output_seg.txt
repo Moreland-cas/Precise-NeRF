@@ -1,0 +1,20 @@
+step 4999: evaluation: psnr_avg=31.60941562652588, lpips_vgg_avg=0.04116910538636148, lpips_alex_avg=0.02210538831539452, ssim_avg=0.9722582706809044
+Models saved to ./ckpts/segngp_rebuttal/seg/ficus
+step 9998: evaluation: psnr_avg=33.159089708328246, lpips_vgg_avg=0.03024536481127143, lpips_alex_avg=0.01544916965533048, ssim_avg=0.9784931021928788
+Models saved to ./ckpts/segngp_rebuttal/seg/ficus
+step 14997: evaluation: psnr_avg=33.56142791748047, lpips_vgg_avg=0.02836265804246068, lpips_alex_avg=0.01422333958093077, ssim_avg=0.979935873746872
+Models saved to ./ckpts/segngp_rebuttal/seg/ficus
+step 19996: evaluation: psnr_avg=33.76357144355774, lpips_vgg_avg=0.026826708782464265, lpips_alex_avg=0.01348614387679845, ssim_avg=0.9805890262126923
+Models saved to ./ckpts/segngp_rebuttal/seg/ficus
+step 24995: evaluation: psnr_avg=33.710834131240844, lpips_vgg_avg=0.027112138867378236, lpips_alex_avg=0.013204667996615172, ssim_avg=0.9807136079668999
+Models saved to ./ckpts/segngp_rebuttal/seg/ficus
+step 29994: evaluation: psnr_avg=35.36094614028931, lpips_vgg_avg=0.01917056567966938, lpips_alex_avg=0.00928196270717308, ssim_avg=0.9857666379213333
+Models saved to ./ckpts/segngp_rebuttal/seg/ficus
+step 34993: evaluation: psnr_avg=35.44780384063721, lpips_vgg_avg=0.019990033050999046, lpips_alex_avg=0.009230169188231229, ssim_avg=0.985921342074871
+Models saved to ./ckpts/segngp_rebuttal/seg/ficus
+step 39992: evaluation: psnr_avg=36.33247543334961, lpips_vgg_avg=0.015869643348269166, lpips_alex_avg=0.007711752238683403, ssim_avg=0.9880173653364182
+Models saved to ./ckpts/segngp_rebuttal/seg/ficus
+step 44991: evaluation: psnr_avg=36.36418369293213, lpips_vgg_avg=0.015953036341816187, lpips_alex_avg=0.007655154052190483, ssim_avg=0.9880992737412453
+Models saved to ./ckpts/segngp_rebuttal/seg/ficus
+step 49990: evaluation: psnr_avg=36.726321125030516, lpips_vgg_avg=0.01562959073111415, lpips_alex_avg=0.007212419167626649, ssim_avg=0.9888836950063705
+Models saved to ./ckpts/segngp_rebuttal/seg/ficus

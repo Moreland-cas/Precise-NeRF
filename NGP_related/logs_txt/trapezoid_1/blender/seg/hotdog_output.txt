@@ -1,0 +1,2 @@
+evaluation: psnr_avg=37.82868592262268, lpips_vgg_avg=0.030851539857685566, lpips_alex_avg=0.012492163800634443, ssim_avg=0.9834104561805725
+Models saved to ./ckpts/trapezoid_1/seg/hotdog

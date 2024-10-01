@@ -1,0 +1,13 @@
+[project]
+name = "segnerf"
+description = "Implementing nerf in segments."
+version = "0.1.0"
+
+dependencies = ["nerfstudio >= 0.3.0"] 
+
+[tool.setuptools.packages.find]
+include = ["segnerf*"]
+
+# register the entry point of your new method here:
+[project.entry-points.'nerfstudio.method_configs']
+segnerf = 'segnerf.segnerf_config:segnerf_config'

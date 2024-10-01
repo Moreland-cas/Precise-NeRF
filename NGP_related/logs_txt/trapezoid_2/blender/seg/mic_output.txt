@@ -1,0 +1,2 @@
+evaluation: psnr_avg=36.90096927642822, lpips_vgg_avg=0.013232436613179743, lpips_alex_avg=0.005576113255810924, ssim_avg=0.991390423476696
+Models saved to ./ckpts/trapezoid_2/seg/mic

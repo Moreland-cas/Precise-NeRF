@@ -1,0 +1,2 @@
+evaluation: psnr_avg=35.675264549255374, lpips_vgg_avg=0.021687063667923213, lpips_alex_avg=0.008617616341216489, ssim_avg=0.9845038104057312
+Models saved to ./ckpts/seg_512/seg/chair

@@ -1,0 +1,2 @@
+evaluation: psnr_avg=25.05231637954712, lpips_vgg_avg=0.08725376667454839, lpips_alex_avg=0.058492721747606995, ssim_avg=0.9301892498135567
+Models saved to ./ckpts/trapezoid_2/seg/drums

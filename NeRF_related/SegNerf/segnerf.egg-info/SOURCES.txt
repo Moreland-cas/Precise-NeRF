@@ -1,0 +1,12 @@
+pyproject.toml
+segnerf/__init__.py
+segnerf/segnerf_config.py
+segnerf/segnerf_field.py
+segnerf/segnerf_model.py
+segnerf/segnerf_model_backup.py
+segnerf.egg-info/PKG-INFO
+segnerf.egg-info/SOURCES.txt
+segnerf.egg-info/dependency_links.txt
+segnerf.egg-info/entry_points.txt
+segnerf.egg-info/requires.txt
+segnerf.egg-info/top_level.txt

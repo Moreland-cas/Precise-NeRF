@@ -1,0 +1,20 @@
+step 4999: evaluation: psnr_avg=33.99369863510132, lpips_vgg_avg=0.03546318457461894, lpips_alex_avg=0.016768372531514614, ssim_avg=0.9773763260245323
+Models saved to ./ckpts/ngp_rebuttal/vanilla/chair
+step 9998: evaluation: psnr_avg=34.31083534240722, lpips_vgg_avg=0.0318225160241127, lpips_alex_avg=0.014485832753125578, ssim_avg=0.9791838416457176
+Models saved to ./ckpts/ngp_rebuttal/vanilla/chair
+step 14997: evaluation: psnr_avg=34.498449649810794, lpips_vgg_avg=0.03073760224506259, lpips_alex_avg=0.013921001353301108, ssim_avg=0.9800438195466995
+Models saved to ./ckpts/ngp_rebuttal/vanilla/chair
+step 19996: evaluation: psnr_avg=34.57657861709595, lpips_vgg_avg=0.029610997037962078, lpips_alex_avg=0.013215741307940334, ssim_avg=0.9804174759984017
+Models saved to ./ckpts/ngp_rebuttal/vanilla/chair
+step 24995: evaluation: psnr_avg=34.6157089805603, lpips_vgg_avg=0.02920845658518374, lpips_alex_avg=0.013103215438313782, ssim_avg=0.9805801209807395
+Models saved to ./ckpts/ngp_rebuttal/vanilla/chair
+step 29994: evaluation: psnr_avg=35.40495475769043, lpips_vgg_avg=0.02420460616238415, lpips_alex_avg=0.01019149494706653, ssim_avg=0.983859044611454
+Models saved to ./ckpts/ngp_rebuttal/vanilla/chair
+step 34993: evaluation: psnr_avg=35.382450313568114, lpips_vgg_avg=0.024249338991940022, lpips_alex_avg=0.010225828741677106, ssim_avg=0.9839386940002441
+Models saved to ./ckpts/ngp_rebuttal/vanilla/chair
+step 39992: evaluation: psnr_avg=35.78661790847778, lpips_vgg_avg=0.021910558426752685, lpips_alex_avg=0.008937775337835773, ssim_avg=0.9852995377779007
+Models saved to ./ckpts/ngp_rebuttal/vanilla/chair
+step 44991: evaluation: psnr_avg=35.72788179397583, lpips_vgg_avg=0.022264135465957225, lpips_alex_avg=0.008956650054315105, ssim_avg=0.9851662695407868
+Models saved to ./ckpts/ngp_rebuttal/vanilla/chair
+step 49990: evaluation: psnr_avg=35.82336013793945, lpips_vgg_avg=0.0218806270416826, lpips_alex_avg=0.008562262137420475, ssim_avg=0.985625890493393
+Models saved to ./ckpts/ngp_rebuttal/vanilla/chair

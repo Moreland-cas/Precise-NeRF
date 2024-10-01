@@ -1,0 +1,2 @@
+evaluation: psnr_avg=36.12988700866699, lpips_vgg_avg=0.020093020284548402, lpips_alex_avg=0.007627077540382743, ssim_avg=0.9816522350907326
+Models saved to ./ckpts/trapezoid_2/seg/lego

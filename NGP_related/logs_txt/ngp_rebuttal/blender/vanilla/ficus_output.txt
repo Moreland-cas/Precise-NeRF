@@ -1,0 +1,20 @@
+step 4999: evaluation: psnr_avg=31.440520668029784, lpips_vgg_avg=0.04006346305832267, lpips_alex_avg=0.022253333162516355, ssim_avg=0.9706773245334626
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ficus
+step 9998: evaluation: psnr_avg=31.769488744735717, lpips_vgg_avg=0.03897282229736447, lpips_alex_avg=0.021416923878714442, ssim_avg=0.9723363977670669
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ficus
+step 14997: evaluation: psnr_avg=31.896299476623536, lpips_vgg_avg=0.037253874354064465, lpips_alex_avg=0.02035044894553721, ssim_avg=0.9730487075448037
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ficus
+step 19996: evaluation: psnr_avg=31.94689206123352, lpips_vgg_avg=0.035965059911832215, lpips_alex_avg=0.019829196925275027, ssim_avg=0.9738164809346199
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ficus
+step 24995: evaluation: psnr_avg=32.09036759376526, lpips_vgg_avg=0.03706287856213748, lpips_alex_avg=0.019074962846934794, ssim_avg=0.9739866974949837
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ficus
+step 29994: evaluation: psnr_avg=33.314068174362184, lpips_vgg_avg=0.027939908280968664, lpips_alex_avg=0.014946031402796506, ssim_avg=0.9794955530762672
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ficus
+step 34993: evaluation: psnr_avg=33.28347770690918, lpips_vgg_avg=0.028798059774562717, lpips_alex_avg=0.01503084824886173, ssim_avg=0.9795021826028824
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ficus
+step 39992: evaluation: psnr_avg=34.00080018043518, lpips_vgg_avg=0.025079055428504943, lpips_alex_avg=0.013148142509162426, ssim_avg=0.981978648006916
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ficus
+step 44991: evaluation: psnr_avg=34.04676473617554, lpips_vgg_avg=0.02581110498867929, lpips_alex_avg=0.013202340020798146, ssim_avg=0.9820635885000228
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ficus
+step 49990: evaluation: psnr_avg=34.27992447853089, lpips_vgg_avg=0.025475154658779503, lpips_alex_avg=0.01306786997243762, ssim_avg=0.9828903895616531
+Models saved to ./ckpts/ngp_rebuttal/vanilla/ficus

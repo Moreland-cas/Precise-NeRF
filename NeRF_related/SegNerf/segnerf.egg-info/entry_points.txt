@@ -1,0 +1,2 @@
+[nerfstudio.method_configs]
+segnerf = segnerf.segnerf_config:segnerf_config

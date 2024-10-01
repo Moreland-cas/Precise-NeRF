@@ -1,0 +1,2 @@
+evaluation: psnr_avg=36.209388952255246, lpips_vgg_avg=0.020619418653659523, lpips_alex_avg=0.007539024153957143, ssim_avg=0.9814140105247497
+Models saved to ./ckpts/simpson_2/seg/lego

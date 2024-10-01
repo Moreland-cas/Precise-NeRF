@@ -1,0 +1,20 @@
+step 4999: evaluation: psnr_avg=27.565102310180663, lpips_vgg_avg=0.09804404824972153, lpips_alex_avg=0.05758507339283824, ssim_avg=0.9295528864860535
+Models saved to ./ckpts/ngp_rebuttal/vanilla/materials
+step 9998: evaluation: psnr_avg=27.913557176589965, lpips_vgg_avg=0.09023117579519749, lpips_alex_avg=0.04928245389834046, ssim_avg=0.9342217069864273
+Models saved to ./ckpts/ngp_rebuttal/vanilla/materials
+step 14997: evaluation: psnr_avg=28.062162046432494, lpips_vgg_avg=0.08712030967697501, lpips_alex_avg=0.04581738151609897, ssim_avg=0.936493325829506
+Models saved to ./ckpts/ngp_rebuttal/vanilla/materials
+step 19996: evaluation: psnr_avg=28.1496355342865, lpips_vgg_avg=0.08590026387944817, lpips_alex_avg=0.04433295208960772, ssim_avg=0.9375111094117164
+Models saved to ./ckpts/ngp_rebuttal/vanilla/materials
+step 24995: evaluation: psnr_avg=28.168565225601196, lpips_vgg_avg=0.08440886415541173, lpips_alex_avg=0.043354478785768154, ssim_avg=0.9383661285042763
+Models saved to ./ckpts/ngp_rebuttal/vanilla/materials
+step 29994: evaluation: psnr_avg=29.173868770599366, lpips_vgg_avg=0.07262297697365284, lpips_alex_avg=0.03417772718705237, ssim_avg=0.945744394659996
+Models saved to ./ckpts/ngp_rebuttal/vanilla/materials
+step 34993: evaluation: psnr_avg=29.228229179382325, lpips_vgg_avg=0.0735557160526514, lpips_alex_avg=0.03397106892429292, ssim_avg=0.9462172791361809
+Models saved to ./ckpts/ngp_rebuttal/vanilla/materials
+step 39992: evaluation: psnr_avg=29.693632888793946, lpips_vgg_avg=0.06644349465146661, lpips_alex_avg=0.029936320204287766, ssim_avg=0.9493591010570526
+Models saved to ./ckpts/ngp_rebuttal/vanilla/materials
+step 44991: evaluation: psnr_avg=29.671775150299073, lpips_vgg_avg=0.06692728998139501, lpips_alex_avg=0.030320439375936984, ssim_avg=0.9490162509679795
+Models saved to ./ckpts/ngp_rebuttal/vanilla/materials
+step 49990: evaluation: psnr_avg=29.849031944274902, lpips_vgg_avg=0.06640166768804193, lpips_alex_avg=0.0300327068567276, ssim_avg=0.9497451171278953
+Models saved to ./ckpts/ngp_rebuttal/vanilla/materials

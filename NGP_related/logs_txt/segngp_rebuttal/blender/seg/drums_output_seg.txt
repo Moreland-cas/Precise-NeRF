@@ -1,0 +1,20 @@
+step 4999: evaluation: psnr_avg=24.724896278381348, lpips_vgg_avg=0.11042232148349285, lpips_alex_avg=0.07432261096313596, ssim_avg=0.9222202906012535
+Models saved to ./ckpts/segngp_rebuttal/seg/drums
+step 9998: evaluation: psnr_avg=24.856045570373535, lpips_vgg_avg=0.1077371484786272, lpips_alex_avg=0.07285906489938497, ssim_avg=0.9242991298437119
+Models saved to ./ckpts/segngp_rebuttal/seg/drums
+step 14997: evaluation: psnr_avg=25.038767356872558, lpips_vgg_avg=0.10353582993149757, lpips_alex_avg=0.06825571237131953, ssim_avg=0.9266494545340538
+Models saved to ./ckpts/segngp_rebuttal/seg/drums
+step 19996: evaluation: psnr_avg=25.063812065124512, lpips_vgg_avg=0.10184201329946518, lpips_alex_avg=0.06725527394562959, ssim_avg=0.9276911023259163
+Models saved to ./ckpts/segngp_rebuttal/seg/drums
+step 24995: evaluation: psnr_avg=25.126196575164794, lpips_vgg_avg=0.10277899522334337, lpips_alex_avg=0.06726363077759742, ssim_avg=0.9276570630073547
+Models saved to ./ckpts/segngp_rebuttal/seg/drums
+step 29994: evaluation: psnr_avg=25.531056575775146, lpips_vgg_avg=0.08494049763306975, lpips_alex_avg=0.05647488320246339, ssim_avg=0.9346489500999451
+Models saved to ./ckpts/segngp_rebuttal/seg/drums
+step 34993: evaluation: psnr_avg=25.54915217399597, lpips_vgg_avg=0.08875352256000042, lpips_alex_avg=0.057002402059733864, ssim_avg=0.9343982455134392
+Models saved to ./ckpts/segngp_rebuttal/seg/drums
+step 39992: evaluation: psnr_avg=25.685196743011474, lpips_vgg_avg=0.08158369516953826, lpips_alex_avg=0.053056888924911616, ssim_avg=0.9368493112921715
+Models saved to ./ckpts/segngp_rebuttal/seg/drums
+step 44991: evaluation: psnr_avg=25.64683738708496, lpips_vgg_avg=0.0827703094482422, lpips_alex_avg=0.05370505160652101, ssim_avg=0.9362256610393525
+Models saved to ./ckpts/segngp_rebuttal/seg/drums
+step 49990: evaluation: psnr_avg=25.65923931121826, lpips_vgg_avg=0.08324833765625954, lpips_alex_avg=0.052879419596865776, ssim_avg=0.9364643791317939
+Models saved to ./ckpts/segngp_rebuttal/seg/drums

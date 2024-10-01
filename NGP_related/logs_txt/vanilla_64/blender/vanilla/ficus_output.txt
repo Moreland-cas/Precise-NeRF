@@ -1,0 +1,2 @@
+evaluation: psnr_avg=22.950762548446654, lpips_vgg_avg=0.11017043016850948, lpips_alex_avg=0.0786414203606546, ssim_avg=0.8979885783791542
+Models saved to ./ckpts/vanilla_64/vanilla/ficus

@@ -1,0 +1,16 @@
+step 4999: evaluation: psnr_avg=33.494824209213256, lpips_vgg_avg=0.042511657960712906, lpips_alex_avg=0.01653292026370764, ssim_avg=0.9700040620565414
+Models saved to ./ckpts/segngp_rebuttal/seg/lego
+step 9998: evaluation: psnr_avg=33.87399835586548, lpips_vgg_avg=0.037426574155688286, lpips_alex_avg=0.014588267768267542, ssim_avg=0.9724083614349365
+Models saved to ./ckpts/segngp_rebuttal/seg/lego
+step 14997: evaluation: psnr_avg=33.91495044708252, lpips_vgg_avg=0.03660238364711404, lpips_alex_avg=0.013965927080716938, ssim_avg=0.9729947084188462
+Models saved to ./ckpts/segngp_rebuttal/seg/lego
+step 19996: evaluation: psnr_avg=34.1705379486084, lpips_vgg_avg=0.03508469378575683, lpips_alex_avg=0.01367500884225592, ssim_avg=0.9735688436031341
+Models saved to ./ckpts/segngp_rebuttal/seg/lego
+step 24995: evaluation: psnr_avg=34.08898512840271, lpips_vgg_avg=0.034796145651489495, lpips_alex_avg=0.01354142969008535, ssim_avg=0.9739329177141189
+Models saved to ./ckpts/segngp_rebuttal/seg/lego
+step 29994: evaluation: psnr_avg=35.78347661018372, lpips_vgg_avg=0.024120541103184224, lpips_alex_avg=0.009200278981588782, ssim_avg=0.9800141721963882
+Models saved to ./ckpts/segngp_rebuttal/seg/lego
+step 34993: evaluation: psnr_avg=35.8320548248291, lpips_vgg_avg=0.023994366051629187, lpips_alex_avg=0.00910857813898474, ssim_avg=0.9802495840191842
+Models saved to ./ckpts/segngp_rebuttal/seg/lego
+step 39992: evaluation: psnr_avg=36.61826127052307, lpips_vgg_avg=0.01994958717841655, lpips_alex_avg=0.007497580692870542, ssim_avg=0.9826350346207618
+Models saved to ./ckpts/segngp_rebuttal/seg/lego

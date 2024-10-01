@@ -1,0 +1,2 @@
+evaluation: psnr_avg=29.964209327697755, lpips_vgg_avg=0.054081767043098805, lpips_alex_avg=0.04176066897809506, ssim_avg=0.9629800248146058
+Models saved to ./ckpts/seg_64/seg/mic

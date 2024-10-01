@@ -1,0 +1,2 @@
+evaluation: psnr_avg=37.66508990287781, lpips_vgg_avg=0.031537767322734, lpips_alex_avg=0.013275285442359746, ssim_avg=0.9830917227268219
+Models saved to ./ckpts/218_2350/seg/hotdog

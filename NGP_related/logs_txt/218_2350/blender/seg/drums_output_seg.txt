@@ -1,0 +1,2 @@
+evaluation: psnr_avg=25.6349235534668, lpips_vgg_avg=0.08309442089870572, lpips_alex_avg=0.05244354690425098, ssim_avg=0.9351691523194313
+Models saved to ./ckpts/218_2350/seg/drums

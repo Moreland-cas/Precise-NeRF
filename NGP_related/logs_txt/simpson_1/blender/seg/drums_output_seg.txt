@@ -1,0 +1,2 @@
+evaluation: psnr_avg=25.243171520233155, lpips_vgg_avg=0.09083959378302098, lpips_alex_avg=0.059503856562077996, ssim_avg=0.9325468081235886
+Models saved to ./ckpts/simpson_1/seg/drums
