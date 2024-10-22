@@ -1,7 +1,7 @@
 
-# Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature (wacv 2025)
+# Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature (WACV 2025)
 
-This is the official repository of the paper "Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature" published in WACV2025.
+This is the official repository of the paper "Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature" published in WACV 2025.
 
 To run the code, first clone the repository,
 ```
@@ -12,14 +12,14 @@ git clone https://github.com/Moreland-cas/Precise_NeRF_Release
 We use several public datasets (nerf_synthetic, Synthetic_NSVF, TanksAndTemple, 360v2, multiscale) to train/evaluate our precise integral methods versus quadrature methods(original NeRFs). Please refer to the original website and repository ([NeRF Official Google Drive](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1), [NSVF](https://github.com/facebookresearch/NSVF), [multiscale, 360v2](https://github.com/hturki/pynerf/tree/main)) to download the data and organize the data structure as:
 ```
 /Precise_NeRF_Release
-	/data
-		/nerf_synthetic
-		/NSVF
-			/Synthetic_NSVF
-			/TanksAndTemple
-		/multiscale # multiscale nerf synthetic
-		/360v2
-		/360_extra
+    /data
+        /nerf_synthetic
+        /NSVF
+            /Synthetic_NSVF
+            /TanksAndTemple
+        /multiscale # multiscale nerf synthetic
+        /360v2
+        /360_extra
 ```
 Then add soft links to the respective subfolders,
 ```
@@ -194,10 +194,9 @@ If you find [PrecNeRF](https://github.com/Moreland-cas/PrecNeRF) useful in your 
 
 ```
 @inproceedings{zhang2025precnerf,
-	title={Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature},
-	author={Zhang, Boyuan and He, Zhenliang and Kan, Meina and Shan, Shiguang},
-	booktitle={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-	year={2025}
+    title={Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature},
+    author={Zhang, Boyuan and He, Zhenliang and Kan, Meina and Shan, Shiguang},
+    booktitle={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    year={2025}
 }
-
 ```
