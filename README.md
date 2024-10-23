@@ -1,7 +1,21 @@
 
+<p align="center">
+    <img src="./assets/vosual_results.jpg" alt="banner" style="width: 100%" />
+</p>
+Our method effectively addresses the ambiguity introduced by numerical quadrature during the rendering process, outperforming the original NeRFs.
+
 # Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature (WACV 2025)
 
-This is the official repository of the paper "Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature" published in WACV 2025.
+> Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature \
+> [Boyuan Zhang](https://github.com/Moreland-cas)<sup>1</sup>, [Zhenliang He](https://lynnho.github.io)<sup>1</sup>, [Meina Kan](https://scholar.google.is/citations?user=4AKCKKEAAAAJ)<sup>1,2</sup>, [Shiguang Shan](https://scholar.google.com/citations?user=Vkzd7MIAAAAJ)<sup>1,2</sup> \
+> <sup>1</sup>Key Lab of AI Safety, Institute of Computing Technology, CAS, China \
+> <sup>2</sup>University of Chinese Academy of Sciences, China
+
+<p align="center">
+    <img src="./assets/pipeline.jpg" alt="overall_pipeline" style="width: 100%" />
+</p>
+
+In this paper we propose a simple yet effective segment representation to overcome the approximation errors of numerical quadrature in NeRFs.
 
 To run the code, first clone the repository,
 ```
@@ -187,6 +201,13 @@ Since [pynerf](https://github.com/hturki/pynerf/tree/main) is built on [nerfstud
 ```
 ns-eval --load_config path_to_outputs/your_model/configs.yaml --output_path path_to_dump
 ```
+
+## Acknowledgement
+This project is built upon nerfstudio, nerfacc, and pynerf. Thanks for their great work!
+
+- nerfstudio: https://github.com/nerfstudio-project/nerfstudio
+- nerfacc: https://github.com/nerfstudio-project/nerfacc
+- pynerf: https://github.com/hturki/pynerf/tree/main
 
 ## Citation
 
