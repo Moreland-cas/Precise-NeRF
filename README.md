@@ -1,8 +1,8 @@
 
 <p align="center">
-    <img src="./assets/visual_results.jpg" alt="banner" style="width: 80%" />
+    <img src="./assets/precnerf.jpg" alt="banner" style="width: 80%" />
 </p>
-Our method effectively addresses the ambiguity introduced by numerical quadrature during the rendering process, outperforming the original NeRFs.
+Our method helps releive the approximation errors introduced by quadrature during volume rendering.
 
 <h1 align="center"> 
     <a>PrecNeRF</a>
@@ -13,11 +13,16 @@ Our method effectively addresses the ambiguity introduced by numerical quadratur
 > <sup>1</sup>Key Lab of AI Safety, Institute of Computing Technology, CAS, China \
 > <sup>2</sup>University of Chinese Academy of Sciences, China
 
+
 <p align="center">
     <img src="./assets/pipeline.jpg" alt="overall_pipeline" style="width: 80%" />
 </p>
-
 In this paper we propose a simple yet effective *segment representation* to overcome the approximation errors of numerical quadrature in NeRFs.
+
+## Visual Results
+<p align="center">
+    <img src="./assets/visual_results.jpg" alt="overall_pipeline" style="width: 80%" />
+</p>
 
 To run the code, first clone the repository,
 ```
