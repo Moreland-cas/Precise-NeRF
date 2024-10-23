@@ -17,7 +17,7 @@ Our method helps releive the approximation errors introduced by quadrature durin
 <p align="center">
     <img src="./assets/pipeline.jpg" alt="overall_pipeline" style="width: 80%" />
 </p>
-In this paper we propose a simple yet effective *segment representation* to overcome the approximation errors of numerical quadrature in NeRFs.
+In this paper we propose a simple yet effective segment representation to overcome the approximation errors of numerical quadrature in NeRFs.
 
 ## Visual Results
 <p align="center">
