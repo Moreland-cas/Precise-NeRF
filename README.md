@@ -4,6 +4,10 @@
 </p>
 Our method effectively addresses the ambiguity introduced by numerical quadrature during the rendering process, outperforming the original NeRFs.
 
+<h1 align="center"> 
+    <a>PrecNeRF</a>
+</h1>
+
 > **Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature**
 > [Boyuan Zhang](https://github.com/Moreland-cas)<sup>1</sup>, [Zhenliang He](https://lynnho.github.io)<sup>1</sup>, [Meina Kan](https://scholar.google.is/citations?user=4AKCKKEAAAAJ)<sup>1,2</sup>, [Shiguang Shan](https://scholar.google.com/citations?user=Vkzd7MIAAAAJ)<sup>1,2</sup> \
 > <sup>1</sup>Key Lab of AI Safety, Institute of Computing Technology, CAS, China \
