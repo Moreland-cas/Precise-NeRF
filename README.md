@@ -1,19 +1,19 @@
 
 <p align="center">
-    <img src="./assets/visual_results.jpg" alt="banner" style="width: 100%" />
+    <img src="./assets/visual_results.jpg" alt="banner" style="width: 80%" />
 </p>
 Our method effectively addresses the ambiguity introduced by numerical quadrature during the rendering process, outperforming the original NeRFs.
 
-> # Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature \
+> **Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature**
 > [Boyuan Zhang](https://github.com/Moreland-cas)<sup>1</sup>, [Zhenliang He](https://lynnho.github.io)<sup>1</sup>, [Meina Kan](https://scholar.google.is/citations?user=4AKCKKEAAAAJ)<sup>1,2</sup>, [Shiguang Shan](https://scholar.google.com/citations?user=Vkzd7MIAAAAJ)<sup>1,2</sup> \
 > <sup>1</sup>Key Lab of AI Safety, Institute of Computing Technology, CAS, China \
 > <sup>2</sup>University of Chinese Academy of Sciences, China
 
 <p align="center">
-    <img src="./assets/pipeline.jpg" alt="overall_pipeline" style="width: 100%" />
+    <img src="./assets/pipeline.jpg" alt="overall_pipeline" style="width: 80%" />
 </p>
 
-In this paper we propose a simple yet effective segment representation to overcome the approximation errors of numerical quadrature in NeRFs.
+In this paper we propose a simple yet effective *segment representation* to overcome the approximation errors of numerical quadrature in NeRFs.
 
 To run the code, first clone the repository,
 ```
