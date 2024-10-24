@@ -26,7 +26,7 @@ We propose a simple yet effective segment representation to relieve the approxim
 
 We use several public datasets (nerf_synthetic, Synthetic_NSVF, TanksAndTemple, 360v2, multiscale) to train/evaluate our precise integral methods versus quadrature methods(original NeRFs). Please refer to the original website and repository ([NeRF Official Google Drive](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1), [NSVF](https://github.com/facebookresearch/NSVF), [multiscale, 360v2](https://github.com/hturki/pynerf/tree/main)) to download the data and organize the data structure as:
 ```
-/Precise_NeRF
+/Precise-NeRF
     /data
         /nerf_synthetic
         /NSVF
@@ -38,7 +38,7 @@ We use several public datasets (nerf_synthetic, Synthetic_NSVF, TanksAndTemple, 
 ```
 Then add soft links to the respective subfolders,
 ```
-cd /Precise_NeRF
+cd /Precise-NeRF
 ln -s ./data ./NeRF_related/data
 ln -s ./data ./NGP_related/data
 ln -s ./data ./PyNeRF_related/PyNeRF/data
@@ -65,7 +65,7 @@ Then install [nerfstudio](https://github.com/nerfstudio-project/nerfstudio) and 
 ```
 git clone https://github.com/Moreland-cas/PrecNeRF
 conda activate nerfstudio
-cd Precise_NeRF_Release/NeRF_related/nerfstudio
+cd Precise-NeRF/NeRF_related/nerfstudio
 pip install -e .
 cd ../SegNeRF # here SegNeRF equals to PrecNeRF
 pip install -e .
@@ -78,7 +78,7 @@ We use the `ns-train` command provided by nerfstudio to train NeRF and PrecNeRF.
 #### nerf_synthetic
 
 ```
-cd Precise_NeRF_Release/NeRF_related
+cd Precise-NeRF/NeRF_related
 ns-train vanilla-nerf --output-dir path_to_outputs --data ./data/nerf_synthetic/xxx
 ns-train segnerf --output-dir path_to_outputs --data ./data/nerf_synthetic/xxx
 ```
@@ -86,7 +86,7 @@ ns-train segnerf --output-dir path_to_outputs --data ./data/nerf_synthetic/xxx
 #### Synthetic_NSVF
 
 ```
-cd Precise_NeRF_Release/NeRF_related
+cd Precise-NeRF/NeRF_related
 ns-train vanilla-nerf --output-dir path_to_outputs --data ./data/NSVF/Synthetic_NSVF/xxx
 ns-train segnerf nsvf --output-dir path_to_outputs --data ./data/NSVF/Synthetic_NSVF/xxx
 ```
@@ -94,7 +94,7 @@ ns-train segnerf nsvf --output-dir path_to_outputs --data ./data/NSVF/Synthetic_
 #### TanksAndTemple
 
 ```
-cd Precise_NeRF_Release/NeRF_related
+cd Precise-NeRF/NeRF_related
 ns-train vanilla-nerf --output-dir path_to_outputs --data ./data/NSVF/TanksAndTemple/xxx
 ns-train segnerf --output-dir path_to_outputs --data ./data/NSVF/TanksAndTemple/xxx
 ```
@@ -126,7 +126,7 @@ pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindi
 Then install [nerfacc](https://github.com/nerfstudio-project/nerfacc) as:
 
 ```
-cd Precise_NeRF_Release/NGP_related
+cd Precise-NeRF/NGP_related
 conda activate nerfacc
 pip install -e .
 ```
@@ -138,7 +138,7 @@ pip install -e .
 Run the scripts in `NGP_related` to train NGP and PrecNGP, the trained model checkpoints are saved in `NGP_related/ckpts` and the evaluation results are saved as txts in `NGP_related/logs_txt`.
 
 ```
-cd Precise_NeRF_Release/NGP_related
+cd Precise-NeRF/NGP_related
 ./run_all_blender.sh
 ./run_all_blender_seg.sh
 ```
@@ -156,7 +156,7 @@ pip install torch==2.1.2+cu118 torchvision==0.16.2+cu118 --extra-index-url https
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 export TCNN_CUDA_ARCHITECTURES=86
 pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
-cd Precise_NeRF_Release/PyNeRF_related/PyNeRF
+cd Precise-NeRF/PyNeRF_related/PyNeRF
 pip install -e .
 ```
 
@@ -168,7 +168,7 @@ pip install torch==2.1.2+cu118 torchvision==0.16.2+cu118 --extra-index-url https
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 export TCNN_CUDA_ARCHITECTURES=86
 pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
-cd Precise_NeRF_Release/PyNeRF_related/PrecPyNeRF
+cd Precise-NeRF/PyNeRF_related/PrecPyNeRF
 pip install -e .
 ```
 
@@ -179,18 +179,18 @@ Run the scripts in `PyNeRF_related/PyNeRF` and `PyNeRF_related/PrecPyNeRF` respe
 #### nerf_synthetic
 
 ```
-cd Precise_NeRF_Release/PyNeRF_related/PyNeRF
+cd Precise-NeRF/PyNeRF_related/PyNeRF
 ./run_all_blender_vanilla.sh
-cd Precise_NeRF_Release/PyNeRF_related/PrecPyNeRF
+cd Precise-NeRF/PyNeRF_related/PrecPyNeRF
 ./run_all_blender_seg.sh
 ```
 
 #### 360v2
 
 ```
-cd Precise_NeRF_Release/PyNeRF_related/PyNeRF
+cd Precise-NeRF/PyNeRF_related/PyNeRF
 ./run_all_360v2_vanilla.sh
-cd Precise_NeRF_Release/PyNeRF_related/PrecPyNeRF
+cd Precise-NeRF/PyNeRF_related/PrecPyNeRF
 ./run_all_360v2_seg.sh
 ```
 
