@@ -24,7 +24,7 @@ We propose a simple yet effective segment representation to relieve the approxim
 
 ## Datesets
 
-We use several public datasets (nerf_synthetic, Synthetic_NSVF, TanksAndTemple, 360v2, multiscale) to train/evaluate our precise integral methods versus quadrature methods(original NeRFs). Please refer to the original website and repository ([NeRF Official Google Drive](https://www.kaggle.com/datasets/nguyenhung1903/nerf-synthetic-dataset), [NSVF](https://github.com/facebookresearch/NSVF), [multiscale, 360v2](https://github.com/hturki/pynerf/tree/main)) to download the data and organize the data structure as:
+We use several public datasets (nerf_synthetic, Synthetic_NSVF, TanksAndTemple, 360v2, multiscale) to train/evaluate our precise integral methods versus quadrature methods(original NeRFs). Please refer to the original website and repository ([NeRF Synthetic](https://www.kaggle.com/datasets/nguyenhung1903/nerf-synthetic-dataset), [NSVF](https://github.com/facebookresearch/NSVF), [multiscale, 360v2](https://github.com/hturki/pynerf/tree/main)) to download the data and organize the data structure as:
 ```
 /Precise-NeRF
     /data
