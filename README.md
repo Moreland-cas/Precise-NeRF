@@ -1,38 +1,35 @@
-
-<p align="center">
-    <img src="./assets/precnerf.jpg" alt="banner" style="width: 80%" />
-</p>
-Our method helps releive the approximation errors introduced by quadrature during volume rendering.
-
 <h1 align="center"> 
     <a>PrecNeRF</a>
 </h1>
 
-> **Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature**
+> **Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature** \
 > [Boyuan Zhang](https://github.com/Moreland-cas)<sup>1</sup>, [Zhenliang He](https://lynnho.github.io)<sup>1</sup>, [Meina Kan](https://scholar.google.is/citations?user=4AKCKKEAAAAJ)<sup>1,2</sup>, [Shiguang Shan](https://scholar.google.com/citations?user=Vkzd7MIAAAAJ)<sup>1,2</sup> \
 > <sup>1</sup>Key Lab of AI Safety, Institute of Computing Technology, CAS, China \
 > <sup>2</sup>University of Chinese Academy of Sciences, China
 
+<p align="center">
+    <img src="./assets/pipeline.jpg" alt="overall_pipeline" style="width: 100%" />
+</p>
+
+In this paper we propose a simple yet effective segment representation to overcome the approximation errors of numerical quadrature in NeRFs.
+
 
 <p align="center">
-    <img src="./assets/pipeline.jpg" alt="overall_pipeline" style="width: 80%" />
+    <img src="./assets/precnerf.jpg" alt="banner" style="width: 100%" />
 </p>
-In this paper we propose a simple yet effective segment representation to overcome the approximation errors of numerical quadrature in NeRFs.
+
+Our method helps releive the approximation errors introduced by quadrature during volume rendering.
 
 ## Visual Results
 <p align="center">
-    <img src="./assets/visual_results.jpg" alt="overall_pipeline" style="width: 80%" />
+    <img src="./assets/visual_results.jpg" alt="overall_pipeline" style="width: 100%" />
 </p>
 
-To run the code, first clone the repository,
-```
-git clone https://github.com/Moreland-cas/Precise_NeRF_Release
-```
-
+## Datesets
 
 We use several public datasets (nerf_synthetic, Synthetic_NSVF, TanksAndTemple, 360v2, multiscale) to train/evaluate our precise integral methods versus quadrature methods(original NeRFs). Please refer to the original website and repository ([NeRF Official Google Drive](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1), [NSVF](https://github.com/facebookresearch/NSVF), [multiscale, 360v2](https://github.com/hturki/pynerf/tree/main)) to download the data and organize the data structure as:
 ```
-/Precise_NeRF_Release
+/Precise_NeRF
     /data
         /nerf_synthetic
         /NSVF
@@ -44,7 +41,7 @@ We use several public datasets (nerf_synthetic, Synthetic_NSVF, TanksAndTemple, 
 ```
 Then add soft links to the respective subfolders,
 ```
-cd /Precise_NeRF_Release
+cd /Precise_NeRF
 ln -s ./data ./NeRF_related/data
 ln -s ./data ./NGP_related/data
 ln -s ./data ./PyNeRF_related/PyNeRF/data
@@ -52,9 +49,9 @@ ln -s ./data ./PyNeRF_related/PrecPyNeRF/data
 ```
 The codes for NeRF/PrecNeRF, NGP/PrecNGP, PyNeRF/PrecPyNeRF are in the folders NeRF_related, NGP_related, PyNeRF_related respectively.
 
-# NeRF-related
+## NeRF-related
 
-## Environment Setup
+### Environment Setup
 
 We refer to [nerfstudio](https://github.com/nerfstudio-project/nerfstudio) as our framework to implement PrecNeRF. First setup the conda environment:
 
@@ -77,11 +74,11 @@ cd ../SegNeRF # here SegNeRF equals to PrecNeRF
 pip install -e .
 ```
 
-## Training
+### Training
 
 We use the `ns-train` command provided by nerfstudio to train NeRF and PrecNeRF.
 
-### nerf_synthetic
+#### nerf_synthetic
 
 ```
 cd Precise_NeRF_Release/NeRF_related
@@ -89,7 +86,7 @@ ns-train vanilla-nerf --output-dir path_to_outputs --data ./data/nerf_synthetic/
 ns-train segnerf --output-dir path_to_outputs --data ./data/nerf_synthetic/xxx
 ```
 
-### Synthetic_NSVF
+#### Synthetic_NSVF
 
 ```
 cd Precise_NeRF_Release/NeRF_related
@@ -97,7 +94,7 @@ ns-train vanilla-nerf --output-dir path_to_outputs --data ./data/NSVF/Synthetic_
 ns-train segnerf nsvf --output-dir path_to_outputs --data ./data/NSVF/Synthetic_NSVF/xxx
 ```
 
-### TanksAndTemple
+#### TanksAndTemple
 
 ```
 cd Precise_NeRF_Release/NeRF_related
@@ -107,9 +104,7 @@ ns-train segnerf --output-dir path_to_outputs --data ./data/NSVF/TanksAndTemple/
 
 Note: When training on nerf_synthetic, the config used for `dataparser` should be `BlenderDataParserConfig()`, whereas `NsvfDataParserConfig()` for Synthetic_NSVF and TanksAndTemple.
 
-  
-
-## Evaluation
+### Evaluation
 
 We use the `ns-eval` command to evaluate the trained models.
 
@@ -117,9 +112,9 @@ We use the `ns-eval` command to evaluate the trained models.
 ns-eval --load_config path_to_outputs/your_model/configs.yaml --output_path path_to_dump
 ```
 
-# NGP-related
+## NGP-related
 
-## Environment Setup
+### Environment Setup
 
 We refer to [nerfacc](https://github.com/nerfstudio-project/nerfacc) as our framework to implement NGP/PrecNGP. First setup the conda environment:
 
@@ -139,9 +134,9 @@ conda activate nerfacc
 pip install -e .
 ```
 
-## Training & Evaluation
+### Training & Evaluation
 
-### nerf_synthetic
+#### nerf_synthetic
 
 Run the scripts in `NGP_related` to train NGP and PrecNGP, the trained model checkpoints are saved in `NGP_related/ckpts` and the evaluation results are saved as txts in `NGP_related/logs_txt`.
 
@@ -151,10 +146,9 @@ cd Precise_NeRF_Release/NGP_related
 ./run_all_blender_seg.sh
 ```
 
+## PyNeRF-related
 
-# PyNeRF-related
-
-## Environment Setup
+### Environment Setup
 
 We refer to [pynerf](https://github.com/hturki/pynerf/tree/main) as our framework to implement PyNeRF/PrecPyNeRF. 
 First setup the conda environment for pynerf:
@@ -181,11 +175,11 @@ cd Precise_NeRF_Release/PyNeRF_related/PrecPyNeRF
 pip install -e .
 ```
 
-## Training
+### Training
 
 Run the scripts in `PyNeRF_related/PyNeRF` and `PyNeRF_related/PrecPyNeRF` respectively to train  PyNeRF and PrecPyNeRF.
 
-### nerf_synthetic
+#### nerf_synthetic
 
 ```
 cd Precise_NeRF_Release/PyNeRF_related/PyNeRF
@@ -194,7 +188,7 @@ cd Precise_NeRF_Release/PyNeRF_related/PrecPyNeRF
 ./run_all_blender_seg.sh
 ```
 
-### 360v2
+#### 360v2
 
 ```
 cd Precise_NeRF_Release/PyNeRF_related/PyNeRF
@@ -203,7 +197,7 @@ cd Precise_NeRF_Release/PyNeRF_related/PrecPyNeRF
 ./run_all_360v2_seg.sh
 ```
 
-## Evaluation
+### Evaluation
 Since [pynerf](https://github.com/hturki/pynerf/tree/main) is built on [nerfstudio](https://github.com/nerfstudio-project/nerfstudio), use `ns-eval` to evaluate the trained models.
 ```
 ns-eval --load_config path_to_outputs/your_model/configs.yaml --output_path path_to_dump
