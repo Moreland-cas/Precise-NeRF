@@ -17,9 +17,9 @@
 
 We propose a simple yet effective segment representation to relieve the approximation errors of numerical quadrature in NeRFs.
 
-## Visual Results
+## Quantitative Results
 <p align="center">
-    <img src="./assets/visual_results.jpg" alt="overall_pipeline" style="width: 100%" />
+    <img src="./assets/quantity_results.png" alt="overall_results" style="width: 100%" />
 </p>
 
 ## Datesets
