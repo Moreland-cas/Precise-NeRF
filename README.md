@@ -209,7 +209,7 @@ This project is built upon nerfstudio, nerfacc, and pynerf. Thanks for their gre
 
 ## Citation
 
-If you find [PrecNeRF](https://github.com/Moreland-cas/PrecNeRF) useful in your research works, please consider citing:
+If you find [PrecNeRF](https://github.com/Moreland-cas/Precise-NeRF) useful in your research works, please consider citing:
 
 ```
 @inproceedings{zhang2025precnerf,
