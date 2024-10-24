@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="./assets/precnerf.jpg" alt="banner" style="width: 100%" />
+</p>
+
 <h1 align="center"> 
     <a>PrecNeRF</a>
 </h1>
@@ -11,14 +15,7 @@
     <img src="./assets/pipeline.jpg" alt="overall_pipeline" style="width: 100%" />
 </p>
 
-In this paper we propose a simple yet effective segment representation to overcome the approximation errors of numerical quadrature in NeRFs.
-
-
-<p align="center">
-    <img src="./assets/precnerf.jpg" alt="banner" style="width: 100%" />
-</p>
-
-Our method helps releive the approximation errors introduced by quadrature during volume rendering.
+We propose a simple yet effective segment representation to relieve the approximation errors of numerical quadrature in NeRFs.
 
 ## Visual Results
 <p align="center">
