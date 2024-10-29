@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-    <a>PrecNeRF</a>
+    <a href="">PrecNeRF (WACV 2025)</a>
 </h1>
 
 <a href=""><img src="https://img.shields.io/badge/WACV 2025-3A98B9?label=%F0%9F%93%9D&labelColor=FFFDD0" style="height: 28px" /></a>
