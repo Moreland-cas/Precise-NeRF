@@ -3,10 +3,10 @@
 </p>
 
 <h1 align="center"> 
-    <a href="">PrecNeRF (WACV 2025)</a>
+    <a href="./assets/PrecNeRF_WACV2025_Preview.pdf">PrecNeRF (WACV 2025)</a>
 </h1>
 
-> **<a href="">Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature</a>** \
+> **<a href="./assets/PrecNeRF_WACV2025_Preview.pdf">Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature</a>** \
 > [Boyuan Zhang](https://github.com/Moreland-cas)<sup>1</sup>, [Zhenliang He](https://lynnho.github.io)<sup>1</sup>, [Meina Kan](https://scholar.google.is/citations?user=4AKCKKEAAAAJ)<sup>1,2</sup>, [Shiguang Shan](https://scholar.google.com/citations?user=Vkzd7MIAAAAJ)<sup>1,2</sup> \
 > <sup>1</sup>Key Lab of AI Safety, Institute of Computing Technology, CAS, China \
 > <sup>2</sup>University of Chinese Academy of Sciences, China
