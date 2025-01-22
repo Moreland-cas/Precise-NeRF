@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-    <a href="./assets/PrecNeRF_WACV2025_Preview.pdf">PrecNeRF (WACV 2025)</a>
+    <a href="./assets/PrecNeRF_WACV2025_Preview.pdf">PrecNeRF (WACV 2025 Oral)</a>
 </h1>
 
 > **<a href="./assets/PrecNeRF_WACV2025_Preview.pdf">Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature</a>** \
